@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Test">
+	<parameter name="baseUrl"
+		value="https://learnsoftwaretestingonline9.blogspot.com/2024/08/Advanced-Registration-form.html"/>
+		<parameter name="baseUrl1"
+		value="https://learnsoftwaretestingonline9.blogspot.com/2024/08/SurveyForm.html"/>
+	<test name="Tests">
+
+		<classes>
+			<class name="practisetest.AdvancedRegisterPageTest" />
+			<class name="practisetest.SurveyFormPageTest"/>
+		</classes>
+	</test>
+
+
+</suite> <!--
+Suite -->

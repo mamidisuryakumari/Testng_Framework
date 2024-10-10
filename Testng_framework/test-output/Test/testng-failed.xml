@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Test]" guice-stage="DEVELOPMENT">
+  <parameter name="baseUrl" value="https://learnsoftwaretestingonline9.blogspot.com/2024/08/Advanced-Registration-form.html"/>
+  <parameter name="baseUrl1" value="https://learnsoftwaretestingonline9.blogspot.com/2024/08/SurveyForm.html"/>
+  <test thread-count="5" name="Tests(failed)">
+    <classes>
+      <class name="practisetest.AdvancedRegisterPageTest">
+        <methods>
+          <include name="startDriver"/>
+          <include name="ExtentTeportSetUp"/>
+          <include name="userDetails" invocation-numbers="0"/>
+          <include name="quitDriver"/>
+          <include name="flushExtenReports"/>
+        </methods>
+      </class> <!-- practisetest.AdvancedRegisterPageTest -->
+    </classes>
+  </test> <!-- Tests(failed) -->
+</suite> <!-- Failed suite [Test] -->
